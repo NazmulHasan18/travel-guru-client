@@ -6,7 +6,7 @@ import { FaSearch } from "react-icons/fa";
 const NavigationBar = () => {
    return (
       <Navbar bg="transparent" className="pt-5" variant="dark" expand="lg ">
-         <Container fluid className="text-white gap-5 ">
+         <Container fluid className="text-white gap-5 px-0">
             <Navbar.Brand href="#">
                <img src="/logo.png" alt="" />
             </Navbar.Brand>
@@ -14,7 +14,7 @@ const NavigationBar = () => {
                <Form.Control
                   type="Search"
                   placeholder="Search your Destination..."
-                  className="me-2 bg-opacity-25 text-white bg-white ps-4"
+                  className="me-2 bg-opacity-25 text-white bg-white ps-4 search-from"
                   aria-label="Search"
                />
                <FaSearch className="position-absolute top-50 start-0 translate-middle-y ps-2 fs-4"></FaSearch>
@@ -22,7 +22,7 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls="navbarScroll" className="text-white" />
             <Navbar.Collapse id="navbarScroll">
                <Nav
-                  className="me-auto my-2 my-lg-0 gap-5 align-items-center justify-content-center "
+                  className=" ms-2 my-lg-0 gap-5 align-items-center justify-content-center "
                   style={{ maxHeight: "100px" }}
                   navbarScroll
                >
