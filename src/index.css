@@ -1,0 +1,16 @@
+img:focus,
+img:focus-visible {
+   outline: 3px solid rgb(202, 202, 22);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Bebas Neue", cursive;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
