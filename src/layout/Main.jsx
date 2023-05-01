@@ -1,11 +1,15 @@
 import React from "react";
+import Home from "../pages/Home/Home/Home";
+import { Container } from "react-bootstrap";
+import NavigationBar from "../shared/NavigaitonBar/NavigationBar";
 
 const Main = () => {
    return (
-      <div>
-         <h2>This is main layout</h2>
-         <p>How are you</p>
-         <button>Hi</button>
+      <div className="body-bg">
+         <Container>
+            <NavigationBar></NavigationBar>
+            <Home></Home>
+         </Container>
       </div>
    );
 };
